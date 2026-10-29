@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f8">
+  <meta name="description" content="The personal portfolio of Jade Acdal, a Computer Science student at BISU Candijay Campus.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <title>Jade Acdal — Computer Science Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="mouse-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Jade Acdal home">
+        <span class="brand-mark">JA<span>.</span></span>
+        <span class="brand-name">JADE ACDAL</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#journey">Journey</a>
+        <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="home">
+      <canvas class="hero-ribbons" id="hero-ribbons" aria-hidden="true"></canvas>
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-line"></span> HELLO, I'M</p>
+          <h1 class="hero-title reveal">Jade<br><span class="name-accent">Acdal<span class="period">.</span></span></h1>
+          <p class="hero-role reveal">Computer Science Student <span class="role-divider">/</span> <span>Aspiring Developer</span></p>
+          <p class="hero-description reveal">
+            I'm a third-year Computer Science student at BISU Candijay Campus, exploring technology and creative ways to build useful digital experiences.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary magnetic" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta reveal">
+            <span class="status-dot"></span>
+            <span>BS Computer Science · Year 3 · Section 3B</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Profile image area">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="portrait-frame">
+            <img src="images/jade-profile.png" alt="Portrait of Jade Acdal" class="portrait-image" id="portrait">
+            <div class="portrait-overlay"></div>
+            <div class="portrait-caption"><span class="caption-kicker">STUDENT PORTFOLIO</span><strong>Curious by nature.<br>Building with purpose.</strong></div>
+          </div>
+          <div class="floating-note note-top"><span class="note-spark">✳</span> Always learning</div>
+          <div class="floating-note note-bottom"><span class="note-dot"></span> Based in Bohol, PH</div>
+          <span class="visual-cross cross-one" aria-hidden="true">+</span>
+          <span class="visual-cross cross-two" aria-hidden="true">+</span>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="scroll-line" aria-hidden="true"></span>
+        <span class="hero-index">01 / 05</span>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT ME</p>
+          <h2>Learning today.<br><span class="text-pink">Creating for tomorrow.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-intro reveal">
+            <p class="lead">I’m Jade Acdal, a third-year Bachelor of Science in Computer Science student at Bohol Island State University — Candijay Campus.</p>
+            <p>This portfolio is a growing collection of my learning, skills, and projects. As I continue my studies, I’m looking forward to exploring new tools, strengthening my problem-solving skills, and turning ideas into thoughtful digital experiences.</p>
+            <p class="placeholder-note"><span aria-hidden="true">✳</span> Personalize this paragraph with your own story, interests, and goals.</p>
+          </div>
+          <div class="about-cards reveal">
+            <article class="info-card">
+              <span class="info-number">01</span>
+              <div><h3>Education</h3><p>BS Computer Science</p><span>BISU · Candijay Campus</span></div>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="info-card">
+              <span class="info-number">02</span>
+              <div><h3>Current level</h3><p>Third-year student</p><span>Year 3 · Section 3B</span></div>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </article>
+            <article class="info-card">
+              <span class="info-number">03</span>
+              <div><h3>Next chapter</h3><p>Keep exploring</p><span>Add your current learning goal</span></div>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> MY TOOLKIT</p><h2>Tools I use<br><span class="text-pink">to bring ideas to life.</span></h2></div>
+          <p class="heading-aside">Only list tools you currently use or are actively learning. Update these cards to match your real experience.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-symbol">&lt;/&gt;</span><h3>HTML5</h3><p>Structure for the web</p><span class="skill-tag">EDIT THIS LIST</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol">#</span><h3>CSS3</h3><p>Layout and visual design</p><span class="skill-tag">EDIT THIS LIST</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol">JS</span><h3>JavaScript</h3><p>Interactive experiences</p><span class="skill-tag">EDIT THIS LIST</span></article>
+          <article class="skill-card reveal"><span class="skill-symbol">{ }</span><h3>More skills</h3><p>Add your own technologies</p><span class="skill-tag">YOUR SKILL HERE</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> SELECTED WORK</p><h2>Projects in<br><span class="text-pink">progress & beyond.</span></h2></div>
+          <p class="heading-aside">A home for class projects, experiments, and personal builds. Replace every sample with work you have actually completed.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <a class="project-image project-image-one" href="#contact" aria-label="Ask about project one">
+              <img src="images/project-1.svg" alt="Decorative project placeholder artwork">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-details"><div class="project-topline"><span>PROJECT 01</span><span>ADD YEAR</span></div><h3>Project name goes here</h3><p>Write a short, clear description of the problem this project solves and what you contributed.</p><div class="project-tags"><span>Technology</span><span>Technology</span></div><div class="project-links"><a href="#contact">View project <span>↗</span></a><a href="#contact">Source code <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card reveal">
+            <a class="project-image project-image-two" href="#contact" aria-label="Ask about project two">
+              <img src="images/project-2.svg" alt="Decorative project placeholder artwork">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-details"><div class="project-topline"><span>PROJECT 02</span><span>ADD YEAR</span></div><h3>Another project title</h3><p>Describe the goal, key features, and what you learned while building this project.</p><div class="project-tags"><span>Technology</span><span>Technology</span></div><div class="project-links"><a href="#contact">View project <span>↗</span></a><a href="#contact">Source code <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card reveal">
+            <a class="project-image project-image-three" href="#contact" aria-label="Ask about project three">
+              <img src="images/project-3.svg" alt="Decorative project placeholder artwork">
+              <span class="project-open" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-details"><div class="project-topline"><span>PROJECT 03</span><span>ADD YEAR</span></div><h3>A project you’re proud of</h3><p>Use this space for a school activity, prototype, website, app, or coding experiment.</p><div class="project-tags"><span>Technology</span><span>Technology</span></div><div class="project-links"><a href="#contact">View project <span>↗</span></a><a href="#contact">Source code <span>↗</span></a></div></div>
+          </article>
+        </div>
+        <p class="projects-footnote"><span>✳</span> These are editable placeholders, not claims of completed projects.</p>
+      </div>
+    </section>
+
+    <section class="section journey-section" id="journey">
+      <div class="container journey-layout">
+        <div class="section-heading reveal"><p class="eyebrow"><span class="eyebrow-line"></span> THE PROCESS</p><h2>My learning<br><span class="text-pink">journey.</span></h2><p class="journey-intro">Every new concept is another step forward. Add milestones as your experience grows.</p></div>
+        <div class="timeline reveal">
+          <article class="timeline-item"><span class="timeline-point"></span><div class="timeline-meta"><span>ONGOING</span><span>01</span></div><h3>Computer Science at BISU</h3><p>Third-year BS Computer Science student at Bohol Island State University, Candijay Campus.</p></article>
+          <article class="timeline-item"><span class="timeline-point"></span><div class="timeline-meta"><span>ADD DATE</span><span>02</span></div><h3>A skill or subject you explored</h3><p>Add a real class, technology, or concept you have learned and want to highlight.</p></article>
+          <article class="timeline-item"><span class="timeline-point"></span><div class="timeline-meta"><span>UP NEXT</span><span>03</span></div><h3>A goal for the future</h3><p>Write about a skill you want to develop, a project you want to build, or a field you want to explore.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-container">
+        <div class="contact-kicker reveal"><span class="eyebrow-line"></span> HAVE AN IDEA?</div>
+        <h2 class="contact-title reveal">Let’s create<br><span>something meaningful.</span></h2>
+        <p class="contact-copy reveal">Have a question, collaboration idea, or just want to connect? Update the placeholder contact details below to make it easy to reach you.</p>
+        <div class="contact-grid reveal">
+          <div class="contact-details">
+            <span class="contact-label">EMAIL</span>
+            <a class="contact-email" href="mailto:jademelanielacdal@gmail.com">jademelanielacdal@gmail.com <span>↗</span></a>
+            <p class="placeholder-note dark-note">Replace this placeholder with your real email before publishing.</p>
+            <div class="social-placeholders"><a href="https://github.com/jadeacdal" target="_blank" rel="noopener noreferrer" aria-label="Jade Acdal on GitHub">GitHub <span>↗</span></a><a href="#contact" aria-label="Add your LinkedIn profile URL">LinkedIn <span>↗</span></a><a href="#contact" aria-label="Add your Facebook profile URL">Facebook <span>↗</span></a></div>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Name" required></div>
+            <div class="form-row"><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+            <div class="form-row"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required></div>
+            <div class="form-row"><label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea></div>
+            <button class="button button-primary form-submit" type="submit">Validate message <span aria-hidden="true">↗</span></button>
+            <p class="form-feedback" id="form-feedback" role="status" aria-live="polite">Demo form only — no message will be sent.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">JA<span>.</span></span><span class="brand-name">JADE ACDAL</span></a>
+      <p>Learning, creating, and growing one line at a time.</p>
+      <a class="back-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="copyright-year"></span> Jade Acdal</span><span>Designed with care <span class="footer-heart">♥</span> in Bohol, Philippines</span><span>WHITE · PINK · BLACK</span></div>
+  </footer>
+</body>
+</html>
